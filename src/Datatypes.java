@@ -1,6 +1,6 @@
 
 public class Datatypes {
-// control  -default
+	// control  -default
 	// F5 - line by line
 	// F8 - normally
 	public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Datatypes {
 
 		byte b = 127;
 		short s = 400;
-		int i = 100;// 99%ncncn
+		int i = 100;// 99% use int only
 		long l = 1000;
 
 		i = 200;
@@ -17,14 +17,14 @@ public class Datatypes {
 		System.out.println(i);
 
 		float f = 100.45f;
-		double d = 300; // 99%
+		double d = 300; // 99% use float only
 		System.out.println(d);
 		char c = 'g';
 		boolean bool = true; // true or false
 		System.out.println(7 > 12);
 		bool = 15 > 11;
 
-		// concatination operator
+		// Concatenation operator
 		System.out.println("Value of i is " + i);
 		System.out.println("10 added to i " + i + 10);
 		System.out.println(i + 10);
